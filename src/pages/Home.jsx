@@ -64,6 +64,37 @@ const Home = () => {
             <a href="#!" className="service-link">Read More →</a>
           </div>
         </div>
+        <div className="container services-cards-container mt-5">
+          <div className="service-card">
+            <div className="service-icon"><FaMobileAlt /></div>
+            <h3 className="service-title">Mobile App Development</h3>
+            <div className="service-underline" />
+            <p className="service-description">
+              Transform your ideas into stunning mobile apps. We create sleek, user-friendly solutions for iOS and Android platforms.
+            </p>
+            <a href="#!" className="service-link">Read More →</a>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon"><FaCode /></div>
+            <h3 className="service-title">Web Development</h3>
+            <div className="service-underline" />
+            <p className="service-description">
+              We build SEO-friendly, responsive websites tailored to your needs using the latest technologies and best practices.
+            </p>
+            <a href="#!" className="service-link">Read More →</a>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon"><FaPencilRuler /></div>
+            <h3 className="service-title">UI/UX Design Services</h3>
+            <div className="service-underline" />
+            <p className="service-description">
+              We craft immersive and intuitive designs that elevate user experiences and deliver visually stunning interfaces.
+            </p>
+            <a href="#!" className="service-link">Read More →</a>
+          </div>
+        </div>
       </section>
 
 
